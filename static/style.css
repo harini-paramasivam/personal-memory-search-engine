@@ -1,0 +1,96 @@
+.main-header {
+    font-size: 3rem !important;
+    background: linear-gradient(45deg, #FF5852, #FF924C, #FFCC47, #71D999, #36CFC9, #3E7CB9, #8867CA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.memory-card {
+    border-radius: 15px;
+    border: 1px solid rgba(130, 130, 130, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.memory-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.memory-document {
+    border-left: 5px solid #3E7CB9;
+}
+
+.memory-image {
+    border-left: 5px solid #FF924C;
+}
+
+.memory-audio {
+    border-left: 5px solid #8867CA;
+}
+
+.memory-web {
+    border-left: 5px solid #71D999;
+}
+
+.search-box {
+    border-radius: 30px !important;
+    border: 2px solid #3E7CB9 !important;
+    padding: 20px !important;
+    font-size: 1.2rem !important;
+}
+
+.stButton button {
+    border-radius: 30px;
+    background-color: #3E7CB9;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+}
+
+.timeline-header {
+    font-size: 1.8rem;
+    color: #3E7CB9;
+    margin-top: 30px;
+}
+
+.entity-pill {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.entity-person {
+    background-color: #FFD0D5;
+    color: #C9184A;
+}
+
+.entity-location {
+    background-color: #D0F0FD;
+    color: #0077B6;
+}
+
+.entity-organization {
+    background-color: #D8E2DC;
+    color: #457B9D;
+}
+
+.entity-date {
+    background-color: #FADDE1;
+    color: #EA526F;
+}
+
+.entity-unknown {
+    background-color: #E6E6E6;
+    color: #666666;
+}
